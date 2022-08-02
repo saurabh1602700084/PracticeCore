@@ -20,5 +20,7 @@ namespace PracticeCore.Models
         [Column(TypeName = "nvarchar(12)")]
         public string IfscCode { get; set; }
         public int Account { get; set; }
+
+        public int balance { get; set; }
     }
 }
