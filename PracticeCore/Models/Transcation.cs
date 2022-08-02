@@ -22,5 +22,8 @@ namespace PracticeCore.Models
         public int Account { get; set; }
 
         public int balance { get; set; }
+
+        public int Id { get; set; }
+
     }
 }
